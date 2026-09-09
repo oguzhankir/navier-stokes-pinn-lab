@@ -1,0 +1,43 @@
+{
+  "config": {
+    "nu": 0.1,
+    "tmax": 1.0,
+    "mode": 1,
+    "width": 32,
+    "depth": 3,
+    "hard_ic": true,
+    "seed": 42,
+    "dtype": "float64",
+    "adam_steps": 1500,
+    "lbfgs_steps": 500,
+    "batch_size": 512,
+    "learning_rate": 0.001,
+    "threads": 1,
+    "device": "cpu"
+  },
+  "seed": 42,
+  "training_seconds": 78.94675803700011,
+  "elapsed_seconds": 78.94675803700011,
+  "adam_updates": 1500,
+  "lbfgs_closure_evaluations": 529,
+  "final_collocation_loss": {
+    "loss": 5.0375581830572945e-06,
+    "momentum": 3.969822103607206e-06,
+    "divergence": 1.0677360794500888e-06,
+    "ic": 0.0
+  },
+  "training_data": "PDE residual and prescribed t=0 velocity only; no future reference labels",
+  "pressure_gauge": "p(0,0,t)=0",
+  "hardware": {
+    "device": "cpu",
+    "cpu": "x86_64",
+    "threads": 1,
+    "gpu": null,
+    "peak_vram_bytes": null
+  },
+  "software": {
+    "python": "3.12.14",
+    "torch": "2.8.0+cpu",
+    "numpy": "2.5.3"
+  }
+}
